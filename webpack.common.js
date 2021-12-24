@@ -18,7 +18,7 @@ export const common = {
         use: ["style-loader", "css-loader"], //注意顺序
       },
       {
-        test: /styl$/,
+        test: /\.styl$/,
         use: ["style-loader", "css-loader", "stylus-loader"],
       },
     ],
