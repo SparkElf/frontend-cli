@@ -24,7 +24,7 @@ export const common = {
     ],
   },
   resolve: {
-    extensions: [".js", "ts"],
+    extensions: [".js", ".ts",".tsx"],
   },
   plugins: [
     new HtmlWebpackPlugin({
