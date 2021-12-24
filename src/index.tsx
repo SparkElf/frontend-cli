@@ -1,6 +1,6 @@
 import "./index.styl";
 import { render } from "react-dom";
 const App = () => {
-  return <div id="App">sss</div>;
+  return <>sss</>;
 };
 render(<App />, document.getElementById("App"));
