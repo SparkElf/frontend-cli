@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "webpack-dev-server --config config/webpack/webpack.dev.js",
     "build": "webpack --config config/webpack/webpack.prod.js",
-    "git-push": "git push origin master:template-react"
+    "git-push": "git push origin template-react:template-react"
   },
   "type": "module",
   "dependencies": {
