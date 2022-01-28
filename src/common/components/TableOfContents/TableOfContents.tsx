@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction, useEffect, useState } from 'react';
-import './TableOfContents.styl'
+import './TableOfContents.scss'
 interface TableOfContentsProps {
     getHeadingElements: () => any[]
     getNestedHeadings: (array: any[]) => any

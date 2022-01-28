@@ -1,4 +1,4 @@
-import './QRCode.styl'
+import './QRCode.scss'
 export const QRCode = () => {
     return (
         <div className="qrCode" onClick={

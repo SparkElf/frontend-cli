@@ -1,4 +1,5 @@
 export const Home = () => {
-    return <>
-    </>
+    return (<>
+        sss
+    </>)
 }

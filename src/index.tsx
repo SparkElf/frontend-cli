@@ -8,7 +8,7 @@ import { render } from "react-dom";
 
 import { Home } from "./pages/home/Home";
 
-import './index.styl'
+import './index.scss'
 
 import { Header } from "./pages/Header";
 import { Footer } from "./pages/Footer";

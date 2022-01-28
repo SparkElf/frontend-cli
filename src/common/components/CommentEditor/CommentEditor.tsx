@@ -1,5 +1,5 @@
 import { useRef } from "react"
-import './CommentEditor.styl'
+import './CommentEditor.scss'
 export const CommentEditor = () => {
     const editorRef = useRef(null)
     const submitBtnRef = useRef(null)

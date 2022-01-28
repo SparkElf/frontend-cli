@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import './TabBar.styl'
+import './TabBar.scss'
 interface TabBarProps {
     data: any[],
     links?: string[],

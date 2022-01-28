@@ -1,4 +1,4 @@
-import './Avatar.styl'
+import './Avatar.scss'
 interface AvatarProps {
     src: string,
     size: string,

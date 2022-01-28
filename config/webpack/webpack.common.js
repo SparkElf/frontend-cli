@@ -9,7 +9,6 @@ export const common = {
   },
   module: {
     rules: [
-
       {
         test: /\.ts$/,
         use: ["ts-loader"],
@@ -23,8 +22,8 @@ export const common = {
         use: ["style-loader", "css-loader"], //注意顺序
       },
       {
-        test: /\.styl$/,
-        use: ["style-loader", "css-loader", "stylus-loader"],
+        test: /\.scss$/,
+        use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
         test: /\.(png|svg|jpe?g)$/i,
@@ -37,7 +36,7 @@ export const common = {
     ],
   },
   resolve: {
-    extensions: [".js", ".ts", ".tsx"],
+    extensions: [".js", ".ts", ".tsx", "mjs"],
   },
   plugins: [
     new HtmlWebpackPlugin({
